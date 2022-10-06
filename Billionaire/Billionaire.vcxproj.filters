@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP">
+      <UniqueIdentifier>{779190a7-7208-4ee8-b8f8-06f93f0bde59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{0a42e5cc-a5c3-418b-962a-c238aeded91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles">
+      <UniqueIdentifier>{a9fdfddf-9566-467e-9ae6-8f00912bb139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{66f1547c-9860-4f67-8863-070ca6abfdf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="doublyLinkedlist.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStore.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenges.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AllStores.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="PlayerStats.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="PlayerStores.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="..\..\Billionaire\Default\Documentation.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="time.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="GameAssests.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
